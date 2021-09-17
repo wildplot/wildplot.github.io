@@ -14,4 +14,6 @@ Built on standard Jekyll support for github pages - the default document source 
 
 ## When happy publish...
 
+* Make sure (under Settings) this repo is public and has Github pages enabled
 * Simply commit and push the `gh-pages` branch
+* The domain is hooked up via [this information](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages#using-an-apex-domain-for-your-github-pages-site)
