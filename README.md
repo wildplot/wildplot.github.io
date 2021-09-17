@@ -1,11 +1,12 @@
 # Website
-The website - published to wildrate.org.
+The website - published to [wildrate.org](www.wildrate.org).
 
-Built on standard Jekyll support for github pages - the default [document source](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites) is the `gh-pages` branch.
+Built on standard Jekyll support for github pages - the default document source is the `gh-pages` branch.
 
 To test it all locally...
 
 * Install Jekyll https://jekyllrb.com/docs/installation/
+* Check you also have the Ruby Bundler tool (if not `gem install bundler`)
 * Checkout this repo and go to the branch `gh-pages`
 * Run `bundle install`
 * Run `bundle exec jekyll serve`
