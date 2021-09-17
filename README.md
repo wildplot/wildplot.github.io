@@ -7,12 +7,12 @@ Built on standard Jekyll support for github pages - the default document source 
 
 * Install Jekyll https://jekyllrb.com/docs/installation/
 * Check you also have the Ruby Bundler tool (if not `gem install bundler`)
-* Checkout this repo and go to the branch `gh-pages`
+* Clone this repo and go checkout the branch `gh-pages`
 * Run `bundle install`
 * Run `bundle exec jekyll serve`
 * Point the browser at [http://localhost:4000](http://localhost:4000)
 
-## When happy publish...
+## Then when happy, publish...
 
 * Make sure (under Settings) this repo is public and has Github pages enabled
 * Simply commit and push the `gh-pages` branch
