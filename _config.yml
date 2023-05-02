@@ -1,1 +1,29 @@
-theme: jekyll-theme-cayman
+# github-pages mandatory configuration
+domain: www.wildrate.org
+url: https://www.wildrate.org
+baseurl: /
+repository: wildrate/wildrate.github.io
+
+#############################################
+
+title: wildrate
+description: Open-source project for automatically measuring biodiversity net gain.
+
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+# If we wanting to use a baked in theme
+#theme: jekyll-theme-cayman
+# But for a 3rd party/other theme hosted on github use:
+remote_theme: pages-themes/cayman@v0.2.0
+
+#############################################
+
+# Github flavour markdown
+markdown: GFM
+# Turn off github project page button
+github:
+  is_project_page: false
+# Don't have a download button here
+show_downloads: false
+# The google analytics magic tracker
+google_analytics:
