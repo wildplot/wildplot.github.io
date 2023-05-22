@@ -2,9 +2,16 @@
 
 The website - published to [wildrate.org](www.wildrate.org).
 
-Built on standard Jekyll support for github pages - the default document source is then the `gh-pages` branch.
+Built on standard Jekyll support for github pages. See here for [full documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 
-See here for [full documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
+**NOTE: only people with permission to merge to `master` branch will be able to publish to the live site**
+
+## Notes for updating
+
+* The jekyll `_config.yaml` defines all the top-level site settings
+* The base template (`cayman`) handles responsive device/screen size
+* The main landing/page is `index.md` - edit this mostly to change
+* Simply override the css across the site by changing the contents of `./assets/css/style.css`
 
 ## To build/test it all locally...
 
@@ -23,6 +30,6 @@ See here for [full documentation](https://docs.github.com/en/pages/setting-up-a-
 ## Then when happy, publish...
 
 * Make sure (under Settings) this repo is public and has Github pages enabled
-* Simply commit and push your changes as a PR to the `gh-pages` branch
+* Simply commit and push your changes to `master` branch as a PR
 * Once that goes through, the site should be published and live
 * The domain is hooked up via [this information](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages#using-an-apex-domain-for-your-github-pages-site)

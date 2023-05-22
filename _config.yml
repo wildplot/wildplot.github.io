@@ -7,7 +7,7 @@ repository: wildrate/wildrate.github.io
 #############################################
 
 title: wildrate
-description: Open-source project for automatically measuring biodiversity net gain.
+description: Open-source edge bioacoustic classification
 
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -26,4 +26,4 @@ github:
 # Don't have a download button here
 show_downloads: false
 # The google analytics magic tracker
-google_analytics:
+google_analytics: G-ZCLKNHBRLH
