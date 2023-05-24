@@ -1,7 +1,8 @@
 # github-pages mandatory configuration
 domain: www.wildrate.org
 url: https://www.wildrate.org
-baseurl: https://www.wildrate.org
+baseurl: /
+#baseurl: https://www.wildrate.org # didn't work
 repository: wildrate/wildrate.github.io
 
 #############################################
