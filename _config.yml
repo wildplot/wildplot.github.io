@@ -28,3 +28,5 @@ github:
 show_downloads: false
 # The google analytics magic tracker
 google_analytics: G-ZCLKNHBRLH
+
+# header: images/IMAGE-NAME.png

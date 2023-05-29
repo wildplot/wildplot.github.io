@@ -1,21 +1,25 @@
 ---
 ---
+/* Overriding style file */
+
 /*
-Custom overrides follow!
+Custom overrides follow for variables!
 See: https://github.com/pages-themes/cayman/blob/master/_sass/jekyll-theme-cayman.scss
 Gradient as per https://uigradients.com/#Lush
+Jekyll variables: https://jekyllrb.com/docs/variables/
 */
-/* CSS variable overrides*/
+/* CSS variable overrides ahead of import*/
 $header-bg-color-secondary: #a8e063;
 $header-bg-color: #56ab2f;
 
+/* Then import the provided theme content */
 @import "{{ site.theme }}";
 
-/* Alternative hard coded way
+/* Can then redefine any additional tags/complete overrides */
 .page-header {
-  color: $header-heading-color;
-  text-align: center;
-  background-color: #56ab2f;
-  background-image: linear-gradient(120deg, #a8e063, #56ab2f);
+  background-image: url("{{ site.url }}/assets/img/temperate.png");
+  background-size: 100% auto;
 }
-*/
+
+/* To take this further you would then provide a version of default.html
+  copied/modified into _layouts */
