@@ -7,8 +7,8 @@
 
   <img src="./assets/img/wildrate.png" height="100" />
 
-  <i class="material-icons" style="font-size:48px;>eco</i>
-  <i class="material-icons" style="font-size:48px;>mic_exernal_on</i>
+  <i class="material-icons" style="font-size:48px;">eco</i>
+  <i class="material-icons" style="font-size:48px;">mic_exernal_on</i>
 
 </div>
 
