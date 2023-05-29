@@ -1,8 +1,21 @@
 <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
-{% include head-custom-google-analytics.html %}
+<!-- Overide this older way with script copied direct from google Analytics -->
+<!-- {% include head-custom-google-analytics.html %} -->
+{% if site.google_analytics %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCLKNHBRLH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', '{{ site.google_analytics }}');
+</script>
+{% endif %}
+
+<!-- Some custom fonts we'd like to use -->
 <link rel="stylesheet" type="text/css"  href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 <!-- You can set your favicon here -->
