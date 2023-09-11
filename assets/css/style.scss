@@ -25,10 +25,16 @@ footer {
   display: none !important;
 }
 
-/* Fill entire page */
+/* Fill entire page with fixed image */
 .background-image {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-size :contain;
   background-image: url("{{ site.url }}/assets/img/temperate.png");
-  background-size: 100% auto;
+  /*background-size: 100% auto;*/
 }
 
 /* Turn off any header at all! */
@@ -37,12 +43,14 @@ header {
 }
 
 /* Set page header colour */
+/*
 .page-header {
   color: $header-heading-color;
   text-align: center;
-  /*background-color: #56ab2f;*/
+  background-color: #56ab2f;
   background-image: linear-gradient(120deg, #a8e063, #56ab2f);
 }
+*/
 
 /* To take this further you would then provide a version of default.html
   copied/modified into _layouts */
