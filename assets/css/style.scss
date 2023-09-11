@@ -34,12 +34,10 @@ footer {
 
 /* Set page header colour */
 .page-header {
-  /*color: $header-heading-color;*/
+  color: $header-heading-color;
   text-align: center;
-  /*
-  background-color: #56ab2f;
+  /*background-color: #56ab2f;*/
   background-image: linear-gradient(120deg, #a8e063, #56ab2f);
-  */
 }
 
 /* To take this further you would then provide a version of default.html
