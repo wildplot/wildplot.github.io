@@ -26,10 +26,14 @@ footer {
 }
 
 /* Fill entire page */
-
 .background-image {
   background-image: url("{{ site.url }}/assets/img/temperate.png");
   /*background-size: 100% auto;*/
+}
+
+/* Turn off any header at all! */
+header {
+  display: none;
 }
 
 /* Set page header colour */
