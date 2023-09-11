@@ -4,7 +4,7 @@
 ---
 <body class="background-image">
     <div align="center">
-        <p>WildRate</p>
-        <p>realtime species reporting</p>
+        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </div>
 </body>
