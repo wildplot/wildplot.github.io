@@ -1,6 +1,6 @@
-# Wildrate Website
+# Wildplot Website
 
-The website - published to [wildrate.org](www.wildrate.org).
+The website - published to [wildplot.org](www.wildrate.org).
 
 Built on standard Jekyll support for github pages. See here for [full documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 
